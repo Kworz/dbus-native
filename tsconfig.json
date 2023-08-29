@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": ["ES5"],
+        "checkJs": true,
+        "allowJs": true,
+        "noEmit": true,
+        "target": "es5",
+        "module": "commonjs",
+        "skipLibCheck": false
+    },
+    "files": [
+        "index.js",
+        "index.d.ts",
+        "./bin/*.js",
+        "./examples/**/*.js",
+        "./lib/*.js",
+        "./test/**/*.js",
+        "./typings/**/*.d.ts"
+    ]
+}
